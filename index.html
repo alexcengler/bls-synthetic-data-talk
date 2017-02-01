@@ -44,14 +44,15 @@
                         <h5>Some Challenges</h5>
                         <ul>
                             <li class="fragment">Very significant right tails on most variables, which is challenging for both:
-                                <ul>
+                                <ul> 
                                     <li>Synthesis Methodology</li>
                                     <li>Disclosure Protection</li>
                                 </ul>
                             </li>
 
                             <li class="fragment">Developing on the SOI PUF, not admin data<br>--High earners already masked/aggregated</li>
-                            <li class="fragment">Computational Environment at IRS is unclear, may be limited</li>
+                            <li class="fragment">Computational Environment at IRS is unclear, may be very limited</li>
+                            <li class="fragment">Ideally synthesizing many variables</li>
                         </ul>
                     </section>
                 </section>
@@ -61,14 +62,27 @@
                     <section>
                         <h3>Literature Review - What We've Learned</h3>
                     </section>
-
+                    <section>
+                        <p>Cornell's Approach is Best Understood/Tested:</p>
+                        <ul>
+                            <li class="fragment">MICE Based Synthesis</li>
+                            <li class="fragment">Develop Analysis Externally</li>
+                            <li class="fragment">Submit Code to Administration</li>
+                            <li class="fragment"></li>
+                        </ul>
+                    </section>
 
                     <section>
                         <h3>Recent Research Developments</h3>
                     </section>
                     <section>
+                        <h5>Machine Learning within Chained Equations</h5><br>
+                        <p>Further research suggests that machine learning methods like CART [Reiter 2005b], random forests [Caiola 2010], can improve on parameterized approaches for synthetic data. Other work has found that support vector machines and neural networks can outperform parameterized methods for missing data imputation [Richman 2009]. However, infusing uncertainty into machine learning estimations is not a well-explored task, which poses potential issues for use of these methods</p>
+                    </section>                     
+                    <section>
                         <h5>Mixture Modeling</h5>
-                        <img src = "images/mixture.png" width="600"/>
+                        <p>In the creation of the Synthetic Longitudinal Business Database, SynLBD, Kinney used dirichlet-multinomial models for categorical variables and linear regression for continuous variables [Kinney 2011].</p>
+                        <img src = "images/mixture.png" width="400"/>
                     </section>
                     <section>
                         <h5>Bayesian Approaches w/ Gibbs Samplers</h5>
@@ -76,8 +90,6 @@
                     </section> 
 
                  </section> 
-
-
 
                 <section>
                     <section>
@@ -124,8 +136,6 @@
                         </ul>       
                         <p>Accessibility as a General Concern</p>      
                     </section>          
-                </section>
-                <section>
                     <section>
                         <h3>Our Solution</h3>
                         <ul>
@@ -182,69 +192,17 @@
                     </section>
 
                     <section>
-                        <h3>Our Solution (Theory)</h3>
+                        <h3>Our Solution</h3>
                         <img src="images/stack1.png" width="600"/>
-                    </section>
-
-                    <section>
-                        <img src="images/stack2.png" width="600"/>
-                    </section>
-
-                    <section>
-                        <h3>New Problem - How do Researchers Use This?</h3>
-                        <ul>
-                            <li>Create AWS Account</li>
-                            <li>Download PPM Key, Create PPK Key w/ PuttyGen</li>
-                            <li>Install AWS Command Line</li>
-                            <li>Reference Linux Command Line Bootstrap Script</li>
-                            <li>Install/Use Putty for SSH</li>
-                            <li>Run FoxyProxy for Portforwarding</li>
-                        </ul>
-                    </section>
-
-                    <section>
-                        <h3>Instead: AWS CloudFormation</h3>
-                    </section>
-
-                </section>
-                <section>
-                    <section>
-                        <h3>Big Data Social Science</h3>
-                        <p>Some Considerations</p>
-                    </section>
-
-                    <section>
-                        <p>Scatterplots Don't Work</p>
-                        <img src="images/scatter.png">
-                    </section>
-                   <section>
-                        <p>Tile Plots (Aka Bivariate Histograms) Do</p>
-                        <img src="images/biv.png" width="450">
-                    </section>
-
-                   <section>
-                        <p>Parallelized Statistics</p>
-                        <ul>
-                            <li>Generalized Linear Models (LM-BFGS)</li>
-                            <li>Iteratively Reweighted Least Squares & Penalized Regression (OWL-QN)</li>
-                            <li>Survival Models?</li>
-                            <li>Time-Series Models?</li>
-                        </ul>      
                     </section>
                 </section>
 
                <section>
                     <section>
-                        <h3>Me</h3>
+                        <h3>US:</h3>
                          <ul>
-                            <li>Alex, hi.</li><br>
-                            <li>Data Scientist @ Urban Institute
-                                <ul>
-                                    <li>Big Data Statistics w/ Spark</li>
-                                    <li>Natural Language Processing</li>
-                                    <li>Machine Learning</li>
-                                </ul>
-                            </li><br>
+                            <li>Alex Engler</li><br>
+                            <li>Data Scientist @ Urban Institute</li>
                             <li>Professor of Data [Viz & Science] @ JHU & GU</li>
                             <li>Contact:</li>
                                 <ul>
@@ -252,6 +210,14 @@
                                     <li>@alexcengler</li>
                                 </ul>
                             </ul>
+                            <li>Robert McClelland</li><br>
+                            <li>Senior Fellow @ Tax Policy Center</li>
+                            <li>Contact:</li>
+                                <ul>
+                                    <li>RMcClelland@urban.org</li>
+                                </ul>
+                            </ul>
+
                     </section>
 
                     <section>
